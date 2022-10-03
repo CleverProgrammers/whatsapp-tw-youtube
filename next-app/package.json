@@ -7,11 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "yarn run build && next export && mv out _static"
+    "export": "npm run build && next export -o _static"
   },
   "engines": {
-    "node": "14.x",
-    "yarn": "^0.14.0"
+    "node": "14.x"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3.0.0",

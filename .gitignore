@@ -37,3 +37,6 @@ next-env.d.ts
 
 # snyk code quality
 .dccache
+
+# other
+_static
