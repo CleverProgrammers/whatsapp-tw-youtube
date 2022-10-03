@@ -10,7 +10,8 @@
     "export": "yarn run build && next export && mv out _static"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "yarn": "^0.14.0"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3.0.0",
