@@ -1,6 +1,6 @@
 # WhatsApp Clone App with Next.js & Thirdweb
 
-![WhatsApp Clone](https://i.ibb.co/JR0Wg6q/Clean-Shot-2022-09-21-at-17-30-12.jpg)
+<!-- ![WhatsApp Clone](https://i.ibb.co/JR0Wg6q/Clean-Shot-2022-09-21-at-17-30-12.jpg) -->
 
 This is a simple example of how to build a WhatsApp-like Web3 chat application with Next.js, Solidity and Thirdweb.
 
