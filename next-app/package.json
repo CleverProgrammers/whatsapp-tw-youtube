@@ -10,7 +10,8 @@
     "export": "npm run build && next export && mv out _static"
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "~1.0.20"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3.0.0",
