@@ -11,7 +11,7 @@
   },
   "engines": {
     "node": "14.x",
-    "npm": "8.15.0"
+    "npm": "6.x"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3.0.0",
