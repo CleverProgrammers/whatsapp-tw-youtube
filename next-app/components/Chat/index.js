@@ -9,13 +9,9 @@ import { useAppContext } from '../../context/context'
 import style from '../../styles/Chat.module.css'
 
 const Chat = () => {
-  const { sendMessage, messages } = useAppContext()
+  const { messages } = useAppContext()
 
   const account = useAddress()
-
-  const user = {
-    displayName: 'John',
-  }
 
   return (
     <div className={style.wrapper}>
