@@ -7,13 +7,11 @@ import { IoMdSend } from 'react-icons/io'
 import style from '../../styles/Chat.module.css'
 
 const ChatInput = () => {
-  const { sendMessage } = useAppContext()
   const [input, setInput] = useState('')
 
   const handleSendMessage = async event => {
     event.preventDefault()
 
-    await sendMessage(input)
     setInput('')
   }
 
