@@ -9,10 +9,6 @@
     "lint": "next lint",
     "export": "npm run build && next export && mv out _static"
   },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
-  },
   "dependencies": {
     "@thirdweb-dev/react": "^3.0.0",
     "@thirdweb-dev/sdk": "^3.0.0",
